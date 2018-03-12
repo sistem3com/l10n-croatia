@@ -4,7 +4,7 @@ Basic odoo localisation for Croatia
 Code will be comitted and maintaindes only to supported branches:
 
 - master - no dev be here
-- [10.0](https://github.com/Odoo-Hrvatska/l10n-croatia/tree/10.0) Dev in progress HELP HEEDED
+- *10.0 Dev in progress HELP NEEDED
 
 
   
