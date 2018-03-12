@@ -10,6 +10,8 @@ Code will be comitted and maintaindes only to supported branches:
   
 Module dependencies :
 - [OCA](https://github.com/OCA)
+- [OCA/server-tools](https://github.com/OCA/server-tools/tree/10.0)
+- [OCA/partner-contact](https://github.com/OCA/partner-contact/tree/10.0)
 
  
 HELP NEEDED
