@@ -99,3 +99,19 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Pycharm
+.idea
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+
+# Sphinx documentation
+docs/_build/
+
+# Backup files
+*~
+*.swp
