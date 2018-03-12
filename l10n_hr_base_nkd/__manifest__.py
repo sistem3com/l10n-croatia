@@ -1,30 +1,32 @@
 # -*- coding: utf-8 -*-
 
 {
-    "name": """Croatia - base""",
-    "summary": """Croatia base localization data""",
+    "name": """Croatia - NKD""",
+    "summary": """Hrvatska - Nacionalna Klasifikacija Djelatnosti""",
     "category": "Localisation / Croatia",
     "images": [],
     "version": "10.0.1.0.0",
     "application": False,
 
-    "author": "Odoo Hrvatska, ",
+    "author": "Odoo Hrvatska",
     "support": "support@odoo-hrvatska.org",
     "website": "http://odoo-hrvatska.org",
     "licence": "LGPL-3",
-    "depends": [],
+    #"price" : 20.00,   #-> only if module if sold!
+    #"currency": "EUR",
+
+    "depends": [
+        'l10n_hr_base'
+    ],
     "external_dependencies": {
-        "python": [
-            'tzlocal'
-        ],
+        "python": [],
         "bin": []
     },
     "data": [
-        "data/res_country_data.xml",
-        "data/res_bank_data.xml",
         "views/res_company_view.xml",
-        "views/res_bank_view.xml",
-        "data/localization_settings.xml",
+        "views/l10n_hr_nkd_view.xml",
+        "data/l10n.hr.nkd.csv",
+        "security/ir.model.access.csv",
     ],
     "qweb": [],
     "demo": [],
