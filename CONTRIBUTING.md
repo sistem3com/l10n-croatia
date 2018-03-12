@@ -8,5 +8,7 @@ Please follow the official guide from the [OCA Guidelines page](https://github.c
 - localized field/model names allowed 
 - should be aware of multi (comapny/currency/localizations)
 
+NO DICRECT PUSH TO THIS REPO - ONLY MERGE REQUESTS
+
 
 
